@@ -10,6 +10,8 @@ Clone the repo:
 git clone https://github.com/Lekyaira/postgres-template <target-directory>
 ```
 
+Edit `shell.nix` and change `PGDB = ` to whatever you want your database to be named.
+
 Then run the Nix shell:
 
 ```bash
