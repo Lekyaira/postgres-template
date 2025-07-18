@@ -5,14 +5,19 @@ A dev test environment for Postgres in Nix.
 ## Usage
 
 Clone the repo:
+
 ```bash
-git clone <template> <target>
+git clone https://github.com/Lekyaira/postgres-template <target-directory>
 ```
+
 Then run the Nix shell:
+
 ```bash
 nix-shell
 ```
+
 or
+
 ```bash
 echo "use nix" > .envrc && direnv allow
 ```
